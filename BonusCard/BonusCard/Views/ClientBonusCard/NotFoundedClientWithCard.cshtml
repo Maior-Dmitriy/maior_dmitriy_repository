@@ -1,0 +1,11 @@
+﻿@model ClientWithCard
+@if (Model == null)
+{
+    <form method="post">
+        <h1>Сard not found</h1>
+        <div class="col" width="40%">
+            <a asp-controller="ClientBonusCard" asp-action="Index" class="btn btn-danger">Good!</a>
+        </div>
+    </form>
+}
+

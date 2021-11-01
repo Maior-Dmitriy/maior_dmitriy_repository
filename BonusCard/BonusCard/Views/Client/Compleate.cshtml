@@ -1,0 +1,21 @@
+﻿@model Client
+
+@if (Model != null)
+{
+    <form method="post">
+        <h1>Card has been added.</h1>
+        <div class="col" width="40%">
+            <a asp-controller="Client" asp-action="Index" class="btn btn-danger">Good!</a>
+        </div>
+    </form>
+}
+else
+{
+    <form method="post">
+        <h1>Card has already existed.  </h1>
+        <div class="col" width="40%">
+            <a asp-controller="Client" asp-action="Index" class="btn btn-danger">Good!</a>
+        </div>
+    </form>
+}
+

@@ -1,0 +1,47 @@
+﻿@model BonusCard.Models.ClientBonusCard
+
+<form method="post" asp-action="Add">
+    <input asp-for="ClientBonusCardID" hidden />
+    <input asp-for="IsActivated" hidden />
+    <input asp-for="Client" hidden />
+    <input asp-for="Balanse" hidden />
+    <div class="border p-3">
+        <div class="form-group" row>
+            <h2 class="text-info pl-3">Add money </h2>
+        </div>
+        <div class="row">
+            <div width="50%" class="col-8">
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label>Current Balance</label>
+                    </div>
+                    <div class="col-8">
+                        <label> @Model.Balanse</label>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label>Add</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" name="addBonus" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-8 offset-4 row">
+                        <div class="col">
+                            <input type="submit" class="btn btn-info w-100" value="Deposit" />
+                        </div>
+                        <div class="col">
+                            <a asp-controller="ClientBonusCard" asp-action="ManagePage" class="btn btn-dark">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+

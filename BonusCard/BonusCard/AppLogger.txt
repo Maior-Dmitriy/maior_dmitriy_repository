@@ -1,0 +1,44 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\melni\OneDrive\Рабочий стол\IT\TestProdject\BonusCard\BonusCard
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\melni\OneDrive\Рабочий стол\IT\TestProdject\BonusCard\BonusCard
+Log message in the Index() method
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\melni\OneDrive\Рабочий стол\IT\TestProdject\BonusCard\BonusCard
+Log message in the Index() method
+Log message in the SearchByCardNum() method
+SearchByCardNum() / Card is not foud
+Log message in the NotFoundedClientWithCard() method
+The view 'NotFoundedClientWithCard' was not found. Searched locations: /Views/ClientBonusCard/NotFoundedClientWithCard.cshtml, /Views/Shared/NotFoundedClientWithCard.cshtml
+An unhandled exception has occurred while executing the request.
+Log message in the SearchByPhoneNumber() method
+Log message in the SearchByPhoneNumber() method
+SearchByPhoneNumber() / Card is not foud
+Log message in the NotFoundedClientWithCard() method
+The view 'NotFoundedClientWithCard' was not found. Searched locations: /Views/ClientBonusCard/NotFoundedClientWithCard.cshtml, /Views/Shared/NotFoundedClientWithCard.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\melni\OneDrive\Рабочий стол\IT\TestProdject\BonusCard\BonusCard
+Log message in the Index() method
+Log message in the Index() method
+Log message in the SearchByCardNum() method
+Log message in the SearchByCardNum() method
+SearchByCardNum() / Card is not foud
+Log message in the NotFoundedClientWithCard() method
+Log message in the SearchByPhoneNumber() method
+SearchByPhoneNumber() / Card is not foud
+Log message in the NotFoundedClientWithCard() method
+Log message in the ManagePage() method
+Log message in the UpdateGetPage() method
+Log message in the Add() method
+Model is valid
+Changes save
+Log message in the ManagePage() method
+Log message in the UpdateAddPage() method
+Log message in the Add() method
+Incorrect value entered
+Log message in the ManagePage() method
